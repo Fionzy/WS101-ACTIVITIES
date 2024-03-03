@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--link title-->
+        <title>Santos, Fiona Mae H.</title>
+    </head>
+
+        <body>
+
+            <img src="https://cdn.discordapp.com/attachments/1120653125578141789/1208291016780681216/IMG_2084.jpg?ex=65e2bfb3&is=65d04ab3&hm=709a200d640eecdc2b336842795f3ce793849df3b9ad5e3f69087c957523e55c&" width="200px" height="200px">
+
+            <h1><b>SANTOS, FIONA MAE H.</b></h1>
+                <p1><b>Email: </b><a href="mailto:fionasantos423@gmail.com"><color="blue"><i><u>fionasantos423@gmail.com</u></i></a></p1><br>
+                <p2><b>Phone: </b>+63 927 535 3229</p2><br>
+                <p3><b>Adress: </b>Brgy. San Agustin Magalang, Pampanga</p3><br>
+                <p4><b>Facebook: </b><a href="https://www.facebook.com/fiona.santos.9083/about/"><color="blue"><u>Fiona Mae H. Santos</u></a></p4>
+
+                <hr width="1225">
+                    
+                <h2><b>Career Objective</b></h2>
+                <p1>I'm on a mission to use my skills and love for Information Technology to dive into exciting projects. I want roles that challenge me, making every day a chance to learn and develop. I'm all about bringing my best to the table, aiming to not just succeed for myself but also to be a key player in the success of the teams and companies I work with.</p1><br>
+
+                <h2><b>Education</b></h2>
+                <ul type="disc">
+                    <li>College</li>
+                    <i>Bachelor of Science in Information Technology</i>
+                    <i>Pampanga State Agricultural University</i><br>
+
+                    <li>Senior High School</li>
+                    <i>Science, Technology, Engineering, and Mathematics Strand</i>
+                    <i>Bloomingfields Academy Foundation Inc. - S.Y. 2021-2023</i><br>
+
+                    <li>Junior High School</li>
+                    <i>Andres M. Luciano High School - S.Y. 2017 - 2021</i><br>
+
+                    <li>Elementary</li>
+                    <i>Magalang Institute S.Y. - 2010 - 2014</i><br>
+                    <i>Magalang Elementary School S.Y. - 2014 - 2015 </i><br>
+                    <i>San Agustin Elementary School S.Y. - 2015 - 2017 </i><br>
+                    
+                </ul>
+
+                <h2><b>Work Experience</b></h2>
+                <p1>Clothing Brand Designer(Online Based) since 2023</p1><br>
+                <ul type = "disc">
+                    <li>PowerPoint Content Creator</li>
+                    <li>Sound System Assistant</li>
+                    <li>Digital Artist</li>
+                </ul>
+                <h2><b>Hardware Skills</b></h2>
+                <p1><i>N/A</i></p1><br>
+
+                <h2><b>Software Skills</b></h2>
+                <p1>Graphic design, Java, HTML, Microsoft PowerPoint, Microsoft Word, Microsoft Excel, Adobe Photoshop, Krita, Canva, Sketchbook, Video Editing </p1><br>
+
+                <h2><b>Additional Skills</b></h2>
+                <p1>Leadership: Supreme Student Goverment 2017 - 2019</p1><br>
+                <p1>Communication Skill </p1><br>
+                <p1>Online Marketing</p1><br>
+                <p1>Designing</p1><br>
+
+                <h2><b>Character Reference</b></h2>
+                <table border="1px" width="1000px" height="5px" cellpadding="1px">
+
+                    <tr>
+                        <td><b>Full Name</b></td>
+                        <td><b>Designation</b></td>
+                        <td><b>E-mail</b></td>
+                        <td><b>Contact Number</b></td>
+                    </tr>
+
+                    <tr>
+                        <td>Jasmin Herrera</td>
+                        <td>Teacher</td>
+                        <td><a href="mailto:jazzy04@gmai.com">jazzy04@gmail.com</a></td>
+                        <td>09*********</td>
+                    </tr>
+
+                    <tr>
+                        <td>Vincent Christopher Bongat</td>
+                        <td>Clothing Brand Founder</td>
+                        <td><a href="mailto:vbbongat@paterostechnologicalcollege.edu.ph">vbbongat@paterostechnologicalcollege.edu.ph</a></td>
+                        <td>09*********</td>
+                    </tr>
+
+                </table>
+
+                <br>
+
+                <p1>I hereby certify that the information provided in this form is complete, true, and correct to the best of my knowledge.</p1>
+
+            </font>
+
+        </body>    
+
+</html>
