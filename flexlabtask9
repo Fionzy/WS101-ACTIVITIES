@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LabTask9Flexbox</title>
+
+        <style>
+            html, body {
+                width: 650px;
+                margin: 0 auto;
+                padding: 25px;
+                align-items: center;
+                justify-content: center;
+            }
+            body {
+                width: 600px;
+                background-color: #303030;
+            }
+            hr {
+                border: lightslategrey;
+                border-radius: 30%;
+                height: 5px;
+                background-color: #ffffff;
+                margin: 20px 0;
+            }
+            hr:hover{
+                background-color: red;
+                transition-duration:1.4s;
+            }
+
+            .FlexContainer1, .FlexContainer2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .C1-item1{
+                background-color: #d7d7d7;
+                width: 200px;
+            }
+            .C1-item2{
+                background-color:#e90032;
+                width: 75px;
+            }
+
+            .C2-item1, .C2-item3{
+                background-color: #d7d7d7;
+                width: 50px;
+            }
+            .C2-item2{
+                background-color:#e90032;
+                flex:1;
+            }
+
+            .FlexContainer3{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: white;
+            }
+            .C3-item1, .C3-item2, .C3-item3, .C3-item4{
+                background-color: #c3002a;
+                width: 50px;
+            }
+
+            .FlexContainer4{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: white;
+                border: gray 3px solid;
+                height: 50px;
+            }
+            .C4-item1, .C4-item2{
+                background-color: #e90032;
+                width: 70px;
+                height: 50px;
+            }
+
+            .Challenge1{
+                display: flex;
+                border-radius: 10px;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #e90032;
+                height: 50px;
+            }
+
+            .home{
+                border: none;
+                background-color: transparent;
+                color: white;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+            }
+            .home:hover{
+                transform: scale(1.5);
+                transition: all ease-in-out .3s;
+                box-shadow: 10% #303030;
+                color: #ffffff;
+                font-weight: bold;
+            }
+
+            .SearchBar{
+                width: 400px;
+                height: 10px;
+                border-radius: 20px;
+                border: none;
+                padding: 10px;
+                background-color: white;
+                font-size: 10px;
+            }
+
+            .BtDl{
+                background-color: transparent;
+                color: white;
+                border: white 1px solid;
+                padding: 10px;
+                font-size: auto;
+                text-align: center;
+                text-justify: auto;
+                cursor: pointer;
+                border-radius: 15px;
+            }
+            .BtDl:hover{
+                transform: scale(1.1);
+                transition: all ease-in-out .3s;
+                box-shadow: 10% #303030;
+                background-color: #303030;
+                color: #ffffff;
+            }
+
+            .Challenge2{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #ffffff;
+                height: 150px;
+                width: 400px;
+                padding: 5px;
+                border-radius: 15px;
+            }
+
+            .option{
+                height: 30px;
+                width: 300px;
+                justify-content: space-between;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                padding: 5px;
+            }
+            .option:hover{
+                transform: scale(1.1);
+                transition: all ease-in-out .3s;
+                box-shadow: 10% #303030;
+                background-color: #303030;
+                color: #e90032;
+            }
+
+            .C2{
+                border: none;
+                background-color: transparent;
+                color: rgb(0, 0, 0);
+                font-size: 18px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+            }
+            .C2:hover{
+                transform: scale(1.1);
+                transition: all ease-in-out .3s;
+                box-shadow: 10% #303030;
+                background-color: #303030;
+                color: #ffffff;
+            }
+
+            .notif{
+                background-color: #303030;
+                color: white;
+                border-radius: 50%;
+                padding: 8.5px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            
+
+        </style>
+
+    </head>
+    <body>
+        <div class="FlexContainer1">
+            <div class="C1-item1">200px</div>
+            <div class="C1-item2">75px</div>
+        </div>
+        <hr>
+
+        <div class="FlexContainer2">
+            <div class="C2-item1">item 1</div>
+            <div class="C2-item2">item 2</div>
+            <div class="C2-item3">item 3</div>
+        </div>
+        <hr>
+
+        <div class="FlexContainer3">
+            <div class="C3-item1">item 1</div>
+            <div class="C3-item2">item 2</div>
+            <div class="C3-item3">item 3</div>
+            <div class="C3-item4">item 4</div>
+        </div>
+        <hr>
+
+        <div class="FlexContainer4">
+            <div class="C4-item1">item 1</div>
+            <div class="C4-item2">item 2</div>
+        </div>
+        <hr>
+
+        <div class="Challenge1">
+            <button class="home">Home</button>
+            <input class="SearchBar" type="text" placeholder="Search">
+            <button class="BtDl" type="submit">Download</button>
+        </div>
+        <hr>
+
+        <div class="Challenge2">
+            <div class="option">
+                <button class="C2">Home</button>
+                <div class="notif">12</div>
+            </div>
+            <div class="option">
+                <button class="C2">Notification</button>
+                <div class="notif">3</div>
+            </div>
+            <div class="option">
+                <button class="C2">Messages</button>
+                <div class="notif">4</div>
+            </div>
+        </div>
+    </body>
+</html>
