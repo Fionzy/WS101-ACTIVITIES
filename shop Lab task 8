@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB TASK 8</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 1000px;
+            max-width: 800px;
+            width: 800px;
+            font-family: impact;
+            font-style: oblique;
+            background-color:  rgb(29, 29, 29);
+        }
+        nav{
+            height: 50px;
+            width: 700px;
+            background-color: #1d1d1d;
+            position: fixed;
+            z-index: 100;
+            text-align: center;
+        }
+        nav:hover{
+            height: 50px;
+            width: 700px;
+            background-color:rgb(11, 0, 72);
+            position: fixed;
+            z-index: 101;
+            
+        }
+        h1{
+            display: flex;
+            text-align: center;
+            justify-content:center;
+            color: #fff;
+            font-weight: 700px;
+            letter-spacing: 4px;
+            font-size: xx-large;
+        }
+        h1:hover{
+            color: #ffffff;
+        }
+       .btn1{
+            position: relative;
+            top: 50px;
+            left: 40rem;
+            height: 38px;
+            width: 40px; 
+            border-radius: 50%;
+            aspect-ratio: 1;
+            border: none;
+            background-color: black;
+            color: #fff;
+            font-weight: 600;
+            transition: all ease-in-out .3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.28);
+        }
+        .btn1:hover{
+            color: red;
+            transform: scale(1.5);
+            transition: all ease-in-out .3s;
+            box-shadow: 0 5px 40px rgb(120, 2, 2);
+        }
+        .product-container{
+            position: relative;
+            display: block;
+            margin-bottom: 2rem;
+            align-content: center;
+        }
+        img{
+            width: 230px;
+            height: 240px;
+            position: relative;
+            top: 50px;
+            left: 20rem;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.28);
+            border-radius: 8px;
+        }
+        .sale {
+            position: absolute;
+            left: 470px;
+            top: 60px;
+            background-color: rgba(0, 0, 0, 0.766);
+            height: 30px;
+            width: 80px;
+            text-align: center;
+            transition: all ease-in-out .3s;
+            border-radius: 6px 0 0 6px;
+        }
+        .sale:hover{
+            transform: scale(1.2);
+            transition: all ease-in-out .2s;
+            border-radius: 6px;
+        }
+        p {
+            margin-top: 3px;
+            color: #fff;
+        }
+        .containerAddcart{
+            position: absolute;
+            top: 205px;
+            left: 320px;
+            background-color: #0000007b;
+            height: 85px;
+            width: 230px;
+            border-radius: 0 0 8px 8px;
+
+        }
+        .addcart{
+            font-size: 10px;
+            height: 30px;
+            width: 40%;
+            position: relative;
+            top: 25px;
+            left: 70px;
+            border: none;
+            border-radius: 5px;
+            font-weight: 800;
+            box-shadow: 0 1px 3px rgb(37, 37, 37);
+            background-color: rgba(255, 255, 255, 0.854);
+            text-decoration: solid;
+            transition: all ease-in-out .2s;
+        }
+        .addcart:hover{
+            transform: scale(1.1);
+            box-shadow: 0 5px 50px rgba(228, 228, 228, 0.629);
+            transition: all ease-in-out .2s;
+            font-weight: 800;
+            background-color: #0a0a0aab;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>    
+    <nav>
+        <h1>DBTK</h1>
+    </nav>
+            <button class="btn1">X</button>
+
+        <div class="product-container">
+            <div class="product">
+                <img src="https://dbtkco.com/cdn/shop/files/VARIANTS1.jpg?v=1703239545" alt="">
+                <div class="sale"><p>20% OFF</p></div>
+                <div class="containerAddcart">
+                    <button class="addcart">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="product">
+                <img src="https://dbtkco.com/cdn/shop/files/DBTKMANUSCRIPT4.jpg?v=1707404862" alt="">
+                <div class="sale"><p>20% OFF</p></div>
+                <div class="containerAddcart">
+                    <button class="addcart">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="product">
+                <img src="https://cf.shopee.ph/file/6a6777ea2cc399df8a839ad8a9825a83" alt="">
+                <div class="sale"><p>20% OFF</p></div>
+                <div class="containerAddcart">
+                    <button class="addcart">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
